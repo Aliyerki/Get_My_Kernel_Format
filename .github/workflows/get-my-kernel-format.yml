@@ -16,7 +16,9 @@ jobs:
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+      # uses: actions/checkout@v3
+        uses: actions/checkout@v3.5.3
+
 
       # Step 2: Download boot.img from the provided URL
       - name: Download boot.img
